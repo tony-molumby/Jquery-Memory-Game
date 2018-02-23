@@ -1,0 +1,174 @@
+ 
+html{
+  height: 100%
+}
+
+  body{
+    font-family: 'Lobster', cursive;
+    height: 100%;
+    margin-top: 50px;
+    background: #ff9999; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #9BA3BC, #81B689); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #9BA3BC, #81B689); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #9BA3BC, #81B689); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #9BA3BC, #81B689); /* Standard syntax */
+  }
+
+  .contain{
+    display: grid;
+    grid-template-rows: auto 450px auto;
+    grid-template-columns: auto 450px auto;
+  }
+  
+  .mem-bg{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    background-color: #000;
+  }
+  
+  .mem-border{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #000;
+  }
+  
+  
+  .mem-btn-1{
+    height: 225px;
+    width: 225px;
+    border-top-left-radius: 100%;
+    background-color: #9BA3BC;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  
+  .mem-btn-2{
+    height: 225px;
+    width: 225px;
+    border-top-right-radius: 100%;
+    background-color: #B7BA5B;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  
+  .mem-btn-3{
+    height: 225px;
+    width: 225px;
+    border-bottom-left-radius: 100%;
+    background-color: #BD898D;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+  
+  .mem-btn-4{
+    height: 225px;
+    width: 225px;
+    border-bottom-right-radius: 100%;
+    background-color: #81B689;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+ 
+  }
+  
+  .mem-on-1{
+    background-color: #F2FAFF;
+  }
+  
+  .mem-on-2{
+    background-color: #FFFFE6;
+  }
+  
+  .mem-on-3{
+    background-color: #FFE0E4;
+  }
+  
+  .mem-on-4{
+    background-color: #E3FFE8;
+  }
+  
+  .mem-container{
+    display: grid;
+    grid-template-rows: 150px 75px 75px 150px;
+    grid-template-columns: 150px 75px 75px 150px;
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+  
+  .mem-opt-btn{
+    border-radius: 100%;
+    border-width: 1px;
+    background-color: #9BA3BC;
+    font-size: 12px;
+    font-family: 'Lobster', cursive;
+    color: #000;
+  }
+  
+  .mem-options{
+    background-color: #F2F2F2;
+    color: #000;
+    border-radius: 40%;
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-gap: 10px;
+    grid-template-rows: 50px 40px 40px;
+    grid-template-columns: auto 40px 40px auto;
+    justify-items: center;
+  }
+  
+  #mem-screen{
+    border-radius: 30%;
+    text-align: center;
+    padding-top: 7px;
+    border-style: solid;
+    border-width: 2px;
+    width: 40px;
+    font-size: 20px;
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+  
+  .start-active{
+    background-color: #81B689;
+  }
+
+  
+  .strict-active{
+    background-color: #BD898D;
+  }
+  
+  #title{
+    grid-column: 1/5;
+    grid-row: 1/2
+  }
+
+  #start {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+
+  #strict {
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
+  
+  .clickable{
+    pointer-events : auto;
+    cursor:pointer;
+  }
+  
+  .unclickable{
+    pointer-events: none;
+  }
+  

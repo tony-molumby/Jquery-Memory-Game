@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jquery Memory Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://raw.githubusercontent.com/shinnn/AudioContext-Polyfill/master/audiocontext-polyfill.js"></script>
+    <script type="text/javascript" src="memory.js"></script>
+</head>
+<body>
+    <div class="contain">
+        <div class="mem-container">
+            <div class="mem-btn-1 mem-border mem-btn" id="1"></div>
+            <div class="mem-btn-2 mem-border mem-btn" id="2"></div>
+            <div class="mem-btn-3 mem-border mem-btn" id="3"></div>
+            <div class="mem-btn-4 mem-border mem-btn" id="4"></div>
+            <div class="mem-options mem-border text-center">
+                <h4 id="title">Memory</h4>
+                <div id="mem-screen"></div>
+                <button type="button" class="mem-opt-btn unclick" id="start">Start</button>
+                <button type="button" class="mem-opt-btn unclick" id="strict">Strict</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
