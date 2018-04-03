@@ -1,3 +1,5 @@
+To see this game in action without having to download the repo, go here: https://codepen.io/InfiniteSet/full/EmMjZR/
+
 This is a Jquery / CSS grid version of the simon game we all used to play as kids.  The code was taken from my codepen account, so please forgive there being only one javascript file, I haven't had time to completely refactor it and make it more component-like.  I hope to create a react version in the future, because we all know JQuery kinda sucks.
 
 From the original manufacturer:
